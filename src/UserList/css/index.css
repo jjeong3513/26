@@ -1,0 +1,35 @@
+.user-lists{
+    width: 50%;
+    min-width: 500px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y:auto;
+    height: 50vh;
+    max-height: 500px;
+}
+.user-list{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-list>img{
+    border-radius: 50%;
+}
+
+.user-list>.username{
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+    flex: 1 1 0;  /*이렇게 하면 online, offline이 오른쪽 끝으로 감 -> username이 나머지 값을 다 가지도록 하고 이미지랑 온라인 부분은 컨텐츠만큼만 가지게 함*/
+}
+
+.user-list>.online.on{
+    color: rgb(246,136,194);
+    font-weight: 500;
+}
+.user-list>.online.off{
+    color: rgba(246,136,194,.5);
+    font-weight: 500;
+}

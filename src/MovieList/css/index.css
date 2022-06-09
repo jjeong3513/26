@@ -1,0 +1,31 @@
+
+.gradeinfo{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gradeinfo.on12{
+    background-color: rgb(83, 177, 214);
+}
+.gradeinfo.onall{
+    background-color: rgb(174, 238, 79)
+}
+.gradeinfo.on15{
+    background-color: rgb(220, 155, 75);
+}
+
+.movie-list{
+    width: 1080px; /*주어진 패딩값이나 마진값이랑 이미지 width 값을 더하면 구할 수 있음*/
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    column-gap: 20px;
+}
+.imgbox img{
+    width: 100%;
+    border-radius: 5px;
+}

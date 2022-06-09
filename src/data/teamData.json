@@ -1,0 +1,39 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "정지혜",
+        "email": "kkag8997@naver.com",
+        "tel": "010-9219-3513",
+        "nickname": "jjeong"
+      },
+      {
+        "id": 2,
+        "name": "정지영",
+        "email": "abc@naver.com",
+        "tel": "010-1111-1111",
+        "nickname": "stop"
+      },
+      {
+        "id": 3,
+        "name": "서윤하",
+        "email": "abc@naver.com",
+        "tel": "010-2222-2222",
+        "nickname": "teacher"
+      },
+      {
+        "id": 4,
+        "name": "김혜인",
+        "email": "abc@naver.com",
+        "tel": "010-3333-3333",
+        "nickname": "police"
+      },
+      {
+        "id": 5,
+        "name": "조예진",
+        "email": "abc@naver.com",
+        "tel": "010-4444-4444",
+        "nickname": "hello"
+      }
+    ]
+  }
